@@ -1,1 +1,64 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azubuike Eleonu</title>
+  
+  
+    <!-- attach our stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- the header -->
+    <header>
+
+        <!-- our main logo -->
+        <a id="logo" href="index.html">
+            <img src="Logo.png" alt="Logo">
+        </a>
+
+        <!-- main navigation links -->
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="Projects.html">Projects</a></li>
+            <a href="Resume.html">Resume</a></li>
+            <a href="Contact.html">Contact</a></li>
+        </div>
+
+    </header>
+   <main>
+     
+  <div class="container">
+    <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+     
+ </main>
+
+    <!-- the footer -->
+    <footer>
+        <span>azueleonu.com<br>Copyright &copy; 2018-present </span>
+    </footer>
+
+</body>
+</html>
