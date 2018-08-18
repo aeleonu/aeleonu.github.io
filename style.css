@@ -1,13 +1,15 @@
 
 h1{
-  font: 70px "Chalkduster";
+  font: 70px "Comic Sans MS";
 }
+
+
 body {
     border: 20px solid white;
     color: white;
     padding: 13.3%;
-    font: 25px "Chalkduster";
-    background: #ccd8ff;
+    font: 16px "Comic Sans MS";
+    background: #40E0D0;
     text-align: center
 }
 
